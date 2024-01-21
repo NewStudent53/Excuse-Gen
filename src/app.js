@@ -8,5 +8,5 @@ function excuseGen() {
     var C2 = Action[Math.round(Math.random()*(Action.length-1))];
     var C3 = Object[Math.round(Math.random()*(Object.length-1))];
 
-	document.getElementById('TheExcuses').innerHTML = '<div>A ' + C1 + ' ' + C2 + '<br> my ' + C3 + '.</div>'
+	document.getElementById('TheExcuses').innerHTML = '<div> ' + C1 + ' ' + C2 + '<br> ' + C3 + '.</div>'
 }
