@@ -1,8 +1,8 @@
 function excuseGen() {
 
-    var Character = ['jogger', 'racoon', 'driver', 'comedian', 'pincone'];
-    var Action = ['took', 'threw', 'yelled at', 'stole', 'bit'];
-    var Object = ['homework', 'toe', 'car', 'shoe'];
+    var Character = ['The dog', 'My grandma', 'His turtle', 'My bird'];
+    var Action = ['ate', 'peed', 'crushed', 'broke'];
+    var Object = ['my homework', 'the keys', 'the car'];
 
     var C1 = Character[Math.round(Math.random()*(Character.length-1))];
     var C2 = Action[Math.round(Math.random()*(Action.length-1))];
